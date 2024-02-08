@@ -1,10 +1,14 @@
-import React from 'react'
-import "./App.css"
+import React from "react";
+import { Todos } from "./components/Todos";
+import AddTodo from "./components/addTodo";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <AddTodo />
+      <Todos />
+    </div>
+  );
+};
 
-export default App
+export default App;
